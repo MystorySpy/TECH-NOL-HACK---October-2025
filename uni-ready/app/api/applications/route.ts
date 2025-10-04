@@ -1,4 +1,4 @@
-"use server";
+"use server"
 
 // app/api/applications/route.ts
 import { NextResponse } from 'next/server';
@@ -7,19 +7,18 @@ import Application from '@/models/Application';
 import User from '@/models/User';
 import Student from '@/models/Student';
 import Teacher from '@/models/Teacher';
-import { useAuth } from '@clerk/nextjs';
+import { auth } from '@clerk/nextjs/server';
 
 export async function POST(request: Request) {
   try {
     await dbConnect();
-    const { userId } = useAuth();
+    const {userId} = await auth();
+    const body = await request.json();
+    const { type, applicationData } = body;
 
     if (!userId) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
-
-    const body = await request.json();
-    const { type, applicationData } = body;
 
     // Create or update user
     const user = await User.findOneAndUpdate(

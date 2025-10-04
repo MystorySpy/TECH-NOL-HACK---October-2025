@@ -32,19 +32,15 @@ const StudentSchema = new mongoose.Schema({
     type: String,
     required: true,
   }],
-  school: {
-    type: String,
-    required: true,
-  },
   goals: {
+    type: String,
+  },
+  background: {
     type: String,
   },
   learningStyle: {
     type: String,
   },
-  availability: [{
-    type: String,
-  }],
   approved: {
     type: Boolean,
     default: false,

@@ -52,8 +52,8 @@ const TeacherSchema = new mongoose.Schema({
     type: String,
   },
   availability: [{
-    day: String,
-    times: [String],
+    type: Number,
+    required: true
   }],
   bio: {
     type: String,
