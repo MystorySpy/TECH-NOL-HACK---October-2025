@@ -7,7 +7,7 @@ export default function SignUpPage() {
   const [selectedRole, setSelectedRole] = useState<'student' | 'teacher'>('student')
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen flex items-start justify-center pt-28 pb-12 bg-gray-50 px-4 sm:px-6 lg:px-8">
       <div className="max-w-md w-full space-y-8">
         {/* Role Selection */}
         <div className="bg-white p-6 rounded-lg shadow-md">
