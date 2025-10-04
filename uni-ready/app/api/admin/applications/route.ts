@@ -7,6 +7,7 @@ import Application from '@/models/Application';
 import User from '@/models/User';
 
 import { auth } from '@clerk/nextjs/server';
+import { ApplicationDTO } from '@/types/applicationDTO';
 
 export async function GET() {
   try {
@@ -18,13 +19,23 @@ export async function GET() {
     }
 
     // Get pending applications
-    const pendingApplications = await Application.find({ status: 'pending' })
-    .populate('user')
-    .limit(10)
+    const applications = await Application.find({ status: 'pending' })
+      .sort({ submittedAt: -1 })
+      .limit(100);
+
+    // Transform to DTO - only send what the client needs
+    const applicationDTOs: ApplicationDTO[] = applications.map(app => ({
+      id: app._id.toString(), // Convert ObjectId to string
+      type: app.type,
+      status: app.status,
+      applicationData: app.applicationData,
+      submittedAt: app.submittedAt.toISOString(),
+      reviewedAt: app.reviewedAt?.toISOString()
+    }));
 
 
     return NextResponse.json({ 
-      pendingApplications 
+      applications: applicationDTOs 
     }, { status: 200 });
 
   } catch (error) {
