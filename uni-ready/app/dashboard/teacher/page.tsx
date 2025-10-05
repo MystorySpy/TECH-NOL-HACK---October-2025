@@ -181,20 +181,6 @@ export default function TeacherDashboard() {
             </p>
           </Link>
 
-          <Link 
-            href="/dashboard/teacher/students"
-            className="bg-white rounded-lg shadow-sm border border-gray-200 p-6 hover:shadow-md transition-shadow group"
-          >
-            <div className="flex items-center justify-between mb-4">
-              <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center group-hover:bg-orange-200 transition-colors">
-                <span className="text-2xl">👨‍🎓</span>
-              </div>
-            </div>
-            <h3 className="text-lg font-semibold text-gray-900 mb-2">My Students</h3>
-            <p className="text-gray-600 text-sm">
-              View and manage students in your batches
-            </p>
-          </Link>
         </div>
       )}
 

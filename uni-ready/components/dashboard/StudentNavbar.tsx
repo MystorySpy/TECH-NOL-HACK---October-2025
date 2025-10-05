@@ -4,14 +4,12 @@ import { UserButton, useUser } from '@clerk/nextjs'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 
-export function TeacherNavbar() {
+export function StudentNavbar() {
   const { user } = useUser()
   const pathname = usePathname()
 
   const navigation = [
-    { name: 'Dashboard', href: '/dashboard/teacher' },
-    { name: 'My Batches', href: '/dashboard/teacher/batches' },
-    { name: 'Profile', href: '/dashboard/teacher/profile' },
+    { name: 'Dashboard', href: '/dashboard/student' },
   ]
 
   return (
@@ -23,7 +21,7 @@ export function TeacherNavbar() {
               <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-sm">T</span>
               </div>
-              <span className="font-bold text-xl text-gray-900">Teacher Dashboard</span>
+              <span className="font-bold text-xl text-gray-900">Student Dashboard</span>
             </Link>
 
             <div className="hidden md:flex items-center space-x-6">
@@ -47,7 +45,7 @@ export function TeacherNavbar() {
             <div className="text-sm text-gray-600">
               <span className="font-semibold">{user?.firstName}</span>
               <span className="ml-2 px-2 py-1 bg-blue-100 text-blue-700 rounded-full text-xs">
-                Teacher
+                Student
               </span>
             </div>
             <UserButton afterSignOutUrl="/" />

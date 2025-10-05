@@ -69,7 +69,7 @@ export default function BatchDetailPage() {
 
     setUploading(true);
     try {
-      const response = await fetch(`/api/batches/${batchId}/resources`, {
+      const response = await fetch(`/api/teachers/batches/${batchId}/resources`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -127,7 +127,7 @@ export default function BatchDetailPage() {
         {/* Header */}
         <div className="mb-8">
           <button 
-            onClick={() => router.push('/teacher/batches')}
+            onClick={() => router.push('/dashboard/teacher/batches')}
             className="text-blue-600 hover:text-blue-800 mb-4 flex items-center"
           >
             ← Back to Batches
