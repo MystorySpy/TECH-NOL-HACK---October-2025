@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# EduConnect - Bridging Educational Gaps Through Peer Mentorship
 
-## Getting Started
+## Features
 
-First, run the development server:
+### Empowering University Students as Mentors
+- **Amplify Student Voices**: University students from all backgrounds can become teachers and mentors, sharing their knowledge and experiences
+- **Create Inclusive Learning Spaces**: Teachers can create personalized batches that cater to diverse learning needs and styles
+- **Build Teaching Experience**: Provides valuable teaching experience for aspiring educators, particularly those from underrepresented groups in education
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Supporting High School Students' Journey
+- **Break Down Barriers to Education**: Free access to quality tutoring and mentorship regardless of socioeconomic background
+- **Personalized Learning Paths**: Students can find mentors who understand their unique challenges and learning styles
+- **University Preparation**: Direct access to current university students who can provide authentic guidance about higher education
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Fostering Cross-Educational Connections
+- **Bridge the Education Gap**: Creates meaningful connections between high school and university students
+- **Diverse Perspectives**: Students learn from mentors with varied backgrounds and experiences
+- **Community Building**: Forms supportive learning communities that extend beyond traditional classroom boundaries
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Accessible Platform Design
+- **No-Cost Access**: Completely free platform ensuring financial barriers don't prevent educational support
+- **Inclusive Application Process**: Simple, straightforward onboarding that welcomes all interested participants
+- **Flexible Learning Models**: Accommodates different schedules, learning paces, and educational needs
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Safe and Supportive Environment
+- **Approval System**: Ensures all participants are verified and committed to creating positive learning experiences
+- **Structured Interactions**: Provides safe, organized spaces for learning and mentorship
+- **Resource Sharing**: Secure platform for sharing educational materials and resources
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+EduConnect transforms the traditional educational hierarchy by creating peer-to-peer learning opportunities that uplift both mentors and learners, particularly focusing on making educational support accessible to those who might otherwise be left behind.
