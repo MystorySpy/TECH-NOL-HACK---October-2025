@@ -1,4 +1,4 @@
-# EduConnect - Bridging Educational Gaps Through Peer Mentorship
+# Tailored - Bridging Educational Gaps Through Peer Mentorship
 
 ## Features
 
@@ -27,4 +27,4 @@
 - **Structured Interactions**: Provides safe, organized spaces for learning and mentorship
 - **Resource Sharing**: Secure platform for sharing educational materials and resources
 
-EduConnect transforms the traditional educational hierarchy by creating peer-to-peer learning opportunities that uplift both mentors and learners, particularly focusing on making educational support accessible to those who might otherwise be left behind.
+Tailored transforms the traditional educational hierarchy by creating peer-to-peer learning opportunities that uplift both mentors and learners, particularly focusing on making educational support accessible to those who might otherwise be left behind.
