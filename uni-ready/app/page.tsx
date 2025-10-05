@@ -16,7 +16,7 @@ export default function Example() {
         </div>
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
           <div className="text-center">
-            <h1 className="text-5xl font-semibold tracking-tight leading-tight text-balance text-black sm:text-5xl">
+            <h1 className="text-5xl sm:text-6xl font-eyegrab tracking-tight leading-tight text-balance text-black">
               Tailored: Education YOUR Way
             </h1>
             <p className="mt-8 text-lg font-medium text-pretty text-black sm:text-lg">
@@ -49,25 +49,12 @@ export default function Example() {
           />
         </div>
       </div>
-      {/* About/What We Are Section - alternating layout */}
+      {/* Education for YOU */}
       <section className="relative flex flex-col items-center justify-center px-4 py-32 sm:py-40 bg-transparent">
         <div className="max-w-5xl w-full flex flex-col gap-20">
-          {/* Row 1: text left, image right */}
-          <div className="flex flex-col sm:flex-row items-center gap-1">
-            <div className="flex-[1.6] flex flex-col justify-center sm:justify-end">
-              <h2 className="text-2xl sm:text-3xl font-bold text-[var(--accent)] mb-4 text-left">Network of Mentors</h2>
-              <p className="text-xl sm:text-2xl text-black font-medium text-left max-w-2xl w-full">
-                <span className="font-semibold">Tailored</span> is an accesible, <span className="italic">not for profit</span>, educational platform designed to connect students with experienced mentors in universities across Ontario. Mentors are <span className="font-semibold">volunteers</span> who provide personalized support, advice, and encouragement to help students navigate academic challenges and thrive while preparing for their university journey.
-              </p>
-            </div>
-            <div className="flex-1 flex justify-center sm:justify-end mt-8 sm:mt-0">
-              <img src="/connections.jpeg" alt="connections" className="w-56 h-56 object-contain rounded-xl shadow-md bg-[var(--background)]/80 sm:ml-0 sm:mr-0 ml-0 mr-0" />
-            </div>
-          </div>
-          {/* Row 2: image left, text right */}
           <div className="flex flex-col sm:flex-row items-center gap-1">
             <div className="flex-1 flex justify-center sm:justify-start order-2 sm:order-1 mt-8 sm:mt-0">
-              <img src="/grow.png" alt="grow" className="w-56 h-56 object-contain rounded-xl shadow-md bg-[var(--background)]/80 sm:ml-0 sm:mr-0 ml-0 mr-0" />
+              <img src="/Grow.png" alt="grow" className="w-56 h-56 object-contain rounded-xl shadow-md bg-[var(--background)]/80 sm:ml-0 sm:mr-0 ml-0 mr-0" />
             </div>
             <div className="flex-[1.6] flex flex-col justify-center sm:justify-start order-1 sm:order-2">
               <h2 className="text-2xl sm:text-3xl font-bold text-[var(--accent)] mb-4 text-right sm:text-left">Education for YOU</h2>
@@ -76,16 +63,68 @@ export default function Example() {
               </p>
             </div>
           </div>
-          {/* Row 3: text left, image right */}
+        </div>
+      </section>
+      {/* Network of Mentors */}
+      <section className="relative flex flex-col items-center justify-center px-4 py-32 sm:py-40 bg-transparent">
+        <div className="max-w-5xl w-full flex flex-col gap-20">
           <div className="flex flex-col sm:flex-row items-center gap-1">
             <div className="flex-[1.6] flex flex-col justify-center sm:justify-end">
-              <h2 className="text-2xl sm:text-3xl font-bold text-[var(--accent)] mb-4 text-left">Too Good to be True?</h2>
+              <h2 className="text-2xl sm:text-3xl font-bold text-[var(--accent)] mb-4 text-left">Network of Mentors</h2>
+              <p className="text-xl sm:text-2xl text-black font-medium text-left max-w-2xl w-full">
+                <span className="font-semibold">Tailored</span> is an accesible, <span className="italic">not for profit</span>, educational platform designed to connect students with experienced mentors in universities across Ontario. Mentors are <span className="font-semibold">volunteers</span> who provide personalized support, advice, and encouragement to help students navigate academic challenges and thrive while preparing for their university journey.
+              </p>
+            </div>
+            <div className="flex-1 flex justify-center sm:justify-end mt-8 sm:mt-0">
+              <img src="/Connections.jpeg" alt="connections" className="w-56 h-56 object-contain rounded-xl shadow-md bg-[var(--background)]/80 sm:ml-0 sm:mr-0 ml-0 mr-0" />
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* Get-Ahead University Prep */}
+      <section className="relative flex flex-col items-center justify-center px-4 py-20 bg-transparent">
+        <div className="max-w-5xl w-full flex flex-col gap-16">
+          <div className="flex flex-col sm:flex-row items-center gap-1">
+            <div className="flex-1 flex justify-center sm:justify-start order-2 sm:order-1 mt-8 sm:mt-0">
+              <img src="/get_ahead.jpg" alt="get ahead" className="w-44 h-44 object-contain rounded-xl shadow-md bg-[var(--background)]/80" />
+            </div>
+            <div className="flex-[1.6] flex flex-col justify-center sm:justify-start order-1 sm:order-2">
+              <h2 className="text-2xl sm:text-3xl font-bold text-[var(--accent)] mb-4 text-right sm:text-left">Get-Ahead University Prep</h2>
+              <p className="text-xl sm:text-2xl text-black font-medium text-left max-w-2xl w-full">
+                Ambitious high school students can join our <span className="font-semibold">get-ahead programs</span>—university-level prep courses in subjects like <span className="font-semibold">Linear Algebra</span> and more. Get a head start on your academic journey, master advanced topics, and transition smoothly into university life with support from experienced mentors.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* Mock Exam Sessions */}
+      <section className="relative flex flex-col items-center justify-center px-4 py-20 bg-transparent">
+        <div className="max-w-5xl w-full flex flex-col gap-16">
+          <div className="flex flex-col sm:flex-row items-center gap-1">
+            <div className="flex-[1.6] flex flex-col justify-center sm:justify-end">
+              <h2 className="text-2xl sm:text-3xl font-bold text-[var(--accent)] mb-4 text-left">Mock Exam Sessions</h2>
+              <p className="text-xl sm:text-2xl text-black font-medium text-left max-w-2xl w-full">
+                Prepare for university with confidence! We offer <span className="font-semibold">mock exam sessions</span> designed to simulate real university assessments, helping you build test-taking skills and reduce anxiety before the big day. Our mentors guide you through practice exams, review key concepts, and share strategies for success.
+              </p>
+            </div>
+            <div className="flex-1 flex justify-center sm:justify-end mt-8 sm:mt-0">
+              <img src="/examprep.jpg" alt="mock exam" className="w-44 h-44 object-contain rounded-xl shadow-md bg-[var(--background)]/80" />
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* Too Good to be True? */}
+      <section className="relative flex flex-col items-center justify-center px-4 py-32 sm:py-40 bg-transparent">
+        <div className="max-w-5xl w-full flex flex-col gap-20">
+          <div className="flex flex-col sm:flex-row items-center gap-1">
+            <div className="flex-1 flex justify-center sm:justify-start order-2 sm:order-1 mt-8 sm:mt-0">
+              <img src="/Overcome.jpg" alt="overcome" className="w-56 h-56 object-contain rounded-xl shadow-md bg-[var(--background)]/80 sm:ml-0 sm:mr-0 ml-0 mr-0" />
+            </div>
+            <div className="flex-[1.6] flex flex-col justify-center sm:justify-start order-1 sm:order-2">
+              <h2 className="text-2xl sm:text-3xl font-bold text-[var(--accent)] mb-4 text-right sm:text-left">Too Good to be True?</h2>
                 <p className="text-xl sm:text-2xl text-black font-medium text-left max-w-2xl w-full">
                   <span className="font-semibold">Tailored</span> is completely free to use, with no hidden costs or fees. Our mentors are passionate volunteers who believe in giving back to the community and helping students succeed. We are committed to making quality <span className="font-semibold">education</span> and mentorship accessible to all students, regardless of their background or financial situation. By connecting you with mentors who have faced similar <span className="font-semibold">obstacles</span>, Tailored empowers you to overcome obstacles—whether academic, social, or personal—so you can reach your full potential.
                 </p>
-            </div>
-            <div className="flex-1 flex justify-center sm:justify-end mt-8 sm:mt-0">
-              <img src="/overcome.jpg" alt="overcome" className="w-56 h-56 object-contain rounded-xl shadow-md bg-[var(--background)]/80 sm:ml-0 sm:mr-0 ml-0 mr-0" />
             </div>
           </div>
         </div>
