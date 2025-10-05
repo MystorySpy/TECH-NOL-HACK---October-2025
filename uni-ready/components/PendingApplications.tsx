@@ -38,6 +38,8 @@ export function PendingApplications({}: PendingApplicationsProps) {
         method: 'POST',
       })
 
+      console.log('Approve response:', response)
+
       if (response.ok) {
         // Remove from local state
         setApplications(prev => prev.filter(app => app.id !== applicationId))
