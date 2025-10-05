@@ -52,7 +52,6 @@ export default function TeacherDashboard() {
         setLoading(false)
       }
     }
-
     if (user) {
       fetchTeacherData()
     }

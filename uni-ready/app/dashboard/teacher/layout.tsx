@@ -8,15 +8,6 @@ export default async function TeacherLayout({
 }: {
   children: React.ReactNode
 }) {
-  const user = await currentUser()
-  
-  // Check if user is a teacher
-  
-
-//   if (role !== 'teacher') {
-//     redirect('/')
-//   }
-//   console.log('TeacherLayout user role:', role)
 
   return (
     <div className="min-h-screen bg-gray-50">
