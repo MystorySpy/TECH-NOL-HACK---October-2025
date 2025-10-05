@@ -28,3 +28,9 @@
 - **Resource Sharing**: Secure platform for sharing educational materials and resources
 
 Tailored transforms the traditional educational hierarchy by creating peer-to-peer learning opportunities that uplift both mentors and learners, particularly focusing on making educational support accessible to those who might otherwise be left behind.
+
+## Setup:
+Navigate to uni-ready folder
+run 'npm install'
+run 'npm run dev'
+
