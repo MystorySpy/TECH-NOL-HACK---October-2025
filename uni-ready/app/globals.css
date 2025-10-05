@@ -12,7 +12,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #f7f3ee; /* slightly darker ivory */
-    --foreground: #eae6e1; /* lighter text for contrast */
+    --foreground: #000000; /* lighter text for contrast */
   }
 }
 
